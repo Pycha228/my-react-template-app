@@ -12,3 +12,12 @@
 .App {
     width: 800px;
 }
+
+.post {
+    display: flex;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px solid teal;
+    justify-content: space-between;
+    align-items: center;
+}
