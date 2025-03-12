@@ -1,0 +1,12 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "usage", // Автоматически добавляет полифилы
+                "corejs": 3 // Версия core-js
+            }
+        ],
+        "@babel/preset-react"
+    ]
+}
